@@ -16,7 +16,7 @@ const Heading = () => {
                 <span className="underline ml-2">Pulse</span>
             </h1>
             <h3 className='text-base sm:text-xl md:text-2xl font-medium'>
-                Jotion is the connected workspace where <br />
+                Pulse is the connected workspace where <br />
                 better, faster work, happens.
             </h3>
             {isAuthenticated && !isLoading && (
