@@ -18,7 +18,7 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: 'Pulse - A Notion Clone',
+  title: 'Pulse - A note taking app',
   description: 'Document and Collaboration',
 }
 
