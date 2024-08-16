@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-        domain: "https://teaching-shrew-13.clerk.accounts.dev",
+        domain: process.env.CONVEX_AUTH_DOMAIN!,
         applicationID: "convex",
         },
     ]
