@@ -30,7 +30,7 @@ const DocumentsPage = () => {
             <Image src="/empty.svg" height="300" width="300" alt="Empty" className='dark:hidden' />
             <Image src="/empty-dark.svg" height="300" width="300" alt="Empty" className='hidden dark:block' />
             <h2 className='text-lg font-medium'>
-                Welcome to {user?.firstName}&apos;s Pulse
+                Welcome to {user?.username}&apos;s Pulse
             </h2>
             <Button onClick={onCreate}>
                 <PlusCircle className='h-4 w-4 mr-2' />
