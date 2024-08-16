@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-        domain: process.env.NEXT_PUBLIC_CONVEXT_AUTH_DOMAIN!,
+        domain: "https://clerk.commandcamp.com",
         applicationID: "convex",
         },
     ]
