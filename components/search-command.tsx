@@ -56,7 +56,7 @@ export const SearchCommand = () => {
 
     return (
         <CommandDialog open={isOpen} onOpenChange={onClose}>
-            <CommandInput placeholder={`Search ${user?.fullName}'s Pulse...`} />
+            <CommandInput placeholder={`Search ${user?.username}'s Pulse...`} />
             <CommandList>
                 <CommandEmpty>No results found.</CommandEmpty>
                 <CommandGroup heading="Documents">
